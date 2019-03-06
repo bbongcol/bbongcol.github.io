@@ -16,6 +16,7 @@ cover:  "/assets/instacode.png"
 * [Google Android Vulkan Tutorials](https://github.com/googlesamples/android-vulkan-tutorials)[386⭐] - Very simple Android-friendly step-by-step Vulkan tutorial.
 * [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples)[726⭐] - Step by step Vulkan [tutorials](https://github.com/LunarG/VulkanSamples/tree/master/API-Samples/Tutorial/markdown) and various examples using android ndk.
 * [Vulkan C++ examples and demos](https://github.com/SaschaWillems/Vulkan)[3652⭐] - Various Vulkan C++ examples and demos including [compute shader](https://github.com/SaschaWillems/Vulkan/tree/master/examples/computeshader).
+* [Vulkan Resources](https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md)[481⭐] - KhronosGroup's Official Resources Guidance
 
 ### Vulkan Compute
 * [Vulkan Minimal Compute](https://github.com/Erkaman/vulkan_minimal_compute)[453⭐] - Single source Vulkan compute pipeline example. 
