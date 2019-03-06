@@ -4,7 +4,7 @@ title:  "Vulkan Compute for Mobile"
 date:   2019-03-06
 author: Bongjun Lee
 categories: Vulkan
-tags:	bulkan mobile
+tags:	vulkan mobile
 cover:  "/assets/instacode.png"
 ---
 
