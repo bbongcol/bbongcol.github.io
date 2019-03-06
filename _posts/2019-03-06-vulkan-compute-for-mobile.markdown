@@ -23,6 +23,6 @@ cover:  "/assets/instacode.png"
 * [Vulkan compute for people ](https://github.com/Glavnokoman/vuh)[82⭐] - Well abstracted Vulcan-based GPGPU computing framework.
 * [Vulkan Compute for C++ (experimentation project)](https://github.com/alexhultman/libvc)[86⭐] - Very abstracted GPGPU engine based on Vulkan.
 
-### Project Using Vulkan Compute Pipeline
+### Projects using Vulkan Compute Pipeline
 * [OpenCV Vulakn Base Backend](https://github.com/opencv/opencv/pull/12703)[32,354⭐] - Very good reference how to use vulkan computing pipeline for deep neural network.
 * [Tencent Ncnn Vulkan Backend](https://github.com/Tencent/ncnn/wiki/vulkan-notes)[5,692⭐] - Tencent also tries to apply Vulcan compute pipeline to their deep natural network framework.
