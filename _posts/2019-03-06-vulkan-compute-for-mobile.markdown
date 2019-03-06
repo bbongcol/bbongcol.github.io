@@ -11,7 +11,7 @@ cover:  "/assets/instacode.png"
 ## Vulkan Resource
 
 ### Vulkan Basic
-* [Vulkan Tutorial](https://vulkan-tutorial.com) - Very good resource for Vulkan beginner. Easy and detail description about Vulkan.
+* [Vulkan Tutorial](https://vulkan-tutorial.com)([github](https://github.com/Overv/VulkanTutorial))[901⭐] - Very good resource for Vulkan beginner. Easy and detail description about Vulkan.
 * [Mike Bailey's Vulkan Page](http://web.engr.oregonstate.edu/~mjb/vulkan/) - Well-made lecture notes and extensive Vulakn training materials.
 * [Google Android Vulkan Tutorials](https://github.com/googlesamples/android-vulkan-tutorials)[386⭐] - Very simple Android-friendly step-by-step Vulkan tutorial.
 * [LunarG Vulkan Samples](https://github.com/LunarG/VulkanSamples)[726⭐] - Step by step Vulkan [tutorials](https://github.com/LunarG/VulkanSamples/tree/master/API-Samples/Tutorial/markdown) and various examples using android ndk.
