@@ -18,10 +18,10 @@ cover:  "/assets/instacode.png"
 * [Vulkan C++ examples and demos](https://github.com/SaschaWillems/Vulkan)[3652⭐] - Various Vulkan C++ examples and demos including android and [compute shader](https://github.com/SaschaWillems/Vulkan/tree/master/examples/computeshader).
 
 ### Vulkan Compute
-* [Vulkan Minimal Compute](https://github.com/Erkaman/vulkan_minimal_compute)
-* [Vulkan compute for people ](https://github.com/Glavnokoman/vuh)
-* [Vulkan Compute for C++ (experimentation project)](https://github.com/alexhultman/libvc)
+* [Vulkan Minimal Compute](https://github.com/Erkaman/vulkan_minimal_compute)[453⭐] - Single source Vulkan compute pipeline example. 
+* [Vulkan compute for people ](https://github.com/Glavnokoman/vuh)[82⭐] - Well abstracted Vulcan-based GPGPU computing framework.
+* [Vulkan Compute for C++ (experimentation project)](https://github.com/alexhultman/libvc)[86⭐] - Very abstracted GPGPU engine based on Vulkan.
 
 ### Project Using Vulkan Compute Pipeline
-* [OpenCV Vulakn Base Backend](https://github.com/opencv/opencv/pull/12703)
-* [Tencent Ncnn Vulkan Backend](https://github.com/Tencent/ncnn/wiki/vulkan-notes)
+* [OpenCV Vulakn Base Backend](https://github.com/opencv/opencv/pull/12703)[32,354⭐] - Very good reference how to use vulkan computing pipeline for deep neural network.
+* [Tencent Ncnn Vulkan Backend](https://github.com/Tencent/ncnn/wiki/vulkan-notes)[5,692⭐] - Tencent also tries to apply Vulcan compute pipeline to their deep natural network framework.
