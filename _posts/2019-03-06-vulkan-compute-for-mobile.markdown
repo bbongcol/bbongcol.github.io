@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vulkan Compute for Mobile"
+title:  "Vulkan Computing for Mobile"
 date:   2019-03-06
 author: Bongjun Lee
 categories: Vulkan
@@ -26,3 +26,9 @@ cover:  "/assets/instacode.png"
 ### Projects using Vulkan Compute Pipeline
 * [OpenCV Vulakn Base Backend](https://github.com/opencv/opencv/pull/12703)[32,354⭐] - Very good reference how to use vulkan computing pipeline for deep neural network.
 * [Tencent Ncnn Vulkan Backend](https://github.com/Tencent/ncnn/wiki/vulkan-notes)[5,692⭐] - Tencent also tries to apply Vulcan compute pipeline to their deep natural network framework.
+
+
+## Todo
+* Vulkan 및 Vulkan Computing에 대한 간단한 설명
+* Android에서 Vulkan Computing을 이용하는 샘플앱 설명
+* Android에서 Vulkan Computing 벤치마크 (vs CPU and OpenCL)
