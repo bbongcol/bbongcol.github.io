@@ -11,11 +11,7 @@ cover:  "/assets/instacode.png"
 ## Tensorflow Lite Android Samples
 
 ### Downdload
-<pre>
-<code class="hljs Github">
-git clone https://github.com/tensorflow/examples.git
-git clone https://github.com/tensorflow/tensorflow.git
-</code>
-</pre>
+<pre><code class="hljs Github">git clone https://github.com/tensorflow/examples.git
+git clone https://github.com/tensorflow/tensorflow.git</code></pre>
 
 ### Tensorflow Examples
