@@ -12,7 +12,7 @@ cover:  "/assets/instacode.png"
 
 ### Downdload
 <pre>
-<code class="hljs javascript">
+<code class="hljs Github">
 git clone https://github.com/tensorflow/examples.git
 git clone https://github.com/tensorflow/tensorflow.git
 </code>
