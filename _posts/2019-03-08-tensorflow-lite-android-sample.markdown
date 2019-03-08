@@ -15,16 +15,18 @@ cover:  "/assets/instacode.png"
 git clone https://github.com/tensorflow/tensorflow.git</code></pre>
 
 ### Tensorflow Official Examples
-* [TensorFlow Lite Image Classification Android Example Application](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/README.md)
+* 🆕[TensorFlow Lite Image Classification Android Example Application](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/README.md)
   * Source : examples/lite/examples/gesture_classification/android
-* [TensorFlow Lite Object Detection Android Demo](https://github.com/tensorflow/examples/blob/master/lite/examples/object_detection/android/README.md)
+* 🆕[TensorFlow Lite Object Detection Android Demo](https://github.com/tensorflow/examples/blob/master/lite/examples/object_detection/android/README.md)
   * Source : examples/lite/examples/object_detection/android
-* [TensorFlow Lite Gesture Classification Android Example](https://github.com/tensorflow/examples/blob/master/lite/examples/gesture_classification/android/README.md)
+* 🆕[TensorFlow Lite Gesture Classification Android Example](https://github.com/tensorflow/examples/blob/master/lite/examples/gesture_classification/android/README.md)
   * Source : examples/lite/examples/gesture_classification/android
-* [TensorFlow Lite Speech Command Recognition Android Demo](https://github.com/tensorflow/examples/blob/master/lite/examples/speech_commands/android/README.md#tensorflow-lite-speech-command-recognition-android-demo)
+* 🆕[TensorFlow Lite Speech Command Recognition Android Demo](https://github.com/tensorflow/examples/blob/master/lite/examples/speech_commands/android/README.md#tensorflow-lite-speech-command-recognition-android-demo)
   * Source : examples/lite/examples/speech_commands/android
 * [TensorFlow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
   * Source : tensorflow/tensorflow/examples/android/
+  * Using tensorflow mobile. So I think this example will be deprecated.
+  * For android studio build, edit the build.gradle file and change the value of nativeBuildSystem to 'none'.
 * [TF Lite Android App Example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/android/app)
   * Source : tensorflow/tensorflow/lite/examples/android
 * [TF Lite Android Image Classifier App Example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/java/demo)
