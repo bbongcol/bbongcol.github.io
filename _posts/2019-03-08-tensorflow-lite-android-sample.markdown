@@ -17,7 +17,7 @@ git clone https://github.com/tensorflow/tensorflow.git</code></pre>
 ### Tensorflow Official Examples
 * 🆕[TensorFlow Lite Image Classification Android Example Application](https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/README.md)
   * Source : examples/lite/examples/gesture_classification/android
-  * ![TFLite_Image_Classification_Android Example_Application](/assets/TFLite_Image_Classification_Android Example_Application.png){: width="100"}
+  * ![TFLite_Image_Classification_Android Example_Application](https://bbongcol.github.io/assets/TFLite_Image_Classification_Android%20Example_Application.png){:width="100px"}
 * 🆕[TensorFlow Lite Object Detection Android Demo](https://github.com/tensorflow/examples/blob/master/lite/examples/object_detection/android/README.md)
   * Source : examples/lite/examples/object_detection/android
 * 🆕[TensorFlow Lite Gesture Classification Android Example](https://github.com/tensorflow/examples/blob/master/lite/examples/gesture_classification/android/README.md)
