@@ -11,7 +11,7 @@ cover:  "/assets/instacode.png"
 ## Tensorflow Lite Android Samples
 
 ### Downdload
-<pre><code class="hljs Atom One Dark">git clone https://github.com/tensorflow/examples.git
+<pre><code class="hljs 'Atom One Dark'">git clone https://github.com/tensorflow/examples.git
 git clone https://github.com/tensorflow/tensorflow.git</code></pre>
 
 ### Tensorflow Examples
