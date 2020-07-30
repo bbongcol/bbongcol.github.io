@@ -34,15 +34,15 @@ wsl --update를 통한 방법
 그 이유는 아래 [WSL 1과 WSL 2 비교](https://docs.microsoft.com/ko-KR/windows/wsl/compare-versions#use-the-linux-file-system-for-faster-performance)를 통해 확인 할수 있는데, 환경에 따라 WSL1, WSL2 성능이 달라 질수 있음
 
 * WSL1이 더 빠른 경우
- * wsl에서 윈도우의 파일 시스템에 있는 파일들을 접근하고 빌드 하는 경우
- * /mnt/c 로 시작하는 폴더의 파일들이 이에 해당됨
- * 지금까지 이 환경에서 개발을 해왔는데, 윈도우에서 바로 프로젝트 폴더로 접근 가능해서 vscode, beyond compare등으로 열어서 편집등 편리해서 임.
- * wsl2에서는 이런 환경에서 오히려 속도가 더 느림. (wsl2에서 /mnt/c로 된 경로를 접근하면 wsl 보다 더 느림)
+  * wsl에서 윈도우의 파일 시스템에 있는 파일들을 접근하고 빌드 하는 경우
+  * /mnt/c 로 시작하는 폴더의 파일들이 이에 해당됨
+  * 지금까지 이 환경에서 개발을 해왔는데, 윈도우에서 바로 프로젝트 폴더로 접근 가능해서 vscode, beyond compare등으로 열어서 편집등 편리해서 임.
+  * wsl2에서는 이런 환경에서 오히려 속도가 더 느림. (wsl2에서 /mnt/c로 된 경로를 접근하면 wsl 보다 더 느림)
 
 * WSL2가 더 빠른 경우
- * wsl2의 루트 디렉토리( ~/ 폴더)에서 작업 할 경우 wsl1 보다 file i/o가 훨신 빨라짐
- * wsl2의 루트 디렉토리는 윈도우의 파일 탐색기에 Linux로 마운드 되어 있음
- * 혹은 \\wsl$\Ubuntu\home 와 같이 접근 가능함
+  * wsl2의 루트 디렉토리( ~/ 폴더)에서 작업 할 경우 wsl1 보다 file i/o가 훨신 빨라짐
+  * wsl2의 루트 디렉토리는 윈도우의 파일 탐색기에 Linux로 마운드 되어 있음
+  * 혹은 \\wsl$\Ubuntu\home 와 같이 접근 가능함
 
 
 ## . Wslconfig를 사용 하 여 전역 옵션 구성
