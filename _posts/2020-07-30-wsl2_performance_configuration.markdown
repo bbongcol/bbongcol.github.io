@@ -23,11 +23,7 @@ wsl --update를 통한 방법
 - 콘솔 창에서 'wsl --update'를 실행하면 wsl2 kernel 최신 버전을 자동으로 다운로드 받아 설치 됨
 - 참고 : [GPU Compute, WSL Install and WSL Update arrive in the latest Insider build for the Windows Subsystem for Linux](https://devblogs.microsoft.com/commandline/gpu-compute-wsl-install-and-wsl-update-arrive-in-the-windows-insiders-fast-ring-for-the-windows-subsystem-for-linux/)
 
-
-
 ## WSL2 성능을 위한 몇가지 설정
-
-
 ### 더 빠른 성능을 위해 Linux 파일 시스템 사용
 그동안 wsl을 통해 cross compile 환경을 구축해 개발을 해오고 있었는데, wsl2에서 file i/o의 성능이 훨신 좋아졌다는 소식을 듣고 wsl2에 개발 환경을 셋팅 후 빌드 해보았는데 오히려 더 느려짐.
 
@@ -44,13 +40,10 @@ wsl --update를 통한 방법
   * wsl2의 루트 디렉토리는 윈도우의 파일 탐색기에 Linux로 마운드 되어 있음
   * 혹은 \\wsl$\Ubuntu\home 와 같이 접근 가능함
 
-
 ### Wslconfig를 사용 하 여 전역 옵션 구성
 wsl2의 경우 완전한 VM으로 실행되기 때문에 성능적인 측면에서 몇가지 제약이 기본적으로 셋팅되는데, .wslconfig를 통해 이런 성능적인 옵션을 구성할 수 있다. ([참고](https://docs.microsoft.com/ko-kr/windows/wsl/wsl-config#configure-global-options-with-wslconfig))
 
 C:\Users\<yourUserName>\.wslconfig 파일을 만들고 아래와 같이 설정하면 됨.
-
-
 ```
 [wsl2]
 kernel=
