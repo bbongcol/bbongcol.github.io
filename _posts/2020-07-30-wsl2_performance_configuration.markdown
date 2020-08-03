@@ -45,7 +45,7 @@ wsl --update를 통한 방법
   * 혹은 \\wsl$\Ubuntu\home 와 같이 접근 가능함
 
 
-### . Wslconfig를 사용 하 여 전역 옵션 구성
+### Wslconfig를 사용 하 여 전역 옵션 구성
 wsl2의 경우 완전한 VM으로 실행되기 때문에 성능적인 측면에서 몇가지 제약이 기본적으로 셋팅되는데, .wslconfig를 통해 이런 성능적인 옵션을 구성할 수 있다. ([참고](https://docs.microsoft.com/ko-kr/windows/wsl/wsl-config#configure-global-options-with-wslconfig))
 
 C:\Users\<yourUserName>\.wslconfig 파일을 만들고 아래와 같이 설정하면 됨.
