@@ -29,6 +29,8 @@ WSL1에서는 윈도우에 Xming를 설치하고 wsl에서 x-windows 구성 요�
 ```
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 ```
+![wsl2_xming.png]({{site.baseurl}}/_posts/wsl2_xming.png)
+
 
 
 ## WSL2 성능을 위한 몇가지 설정
