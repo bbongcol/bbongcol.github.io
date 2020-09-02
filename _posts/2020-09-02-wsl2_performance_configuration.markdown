@@ -29,7 +29,7 @@ WSL1에서는 윈도우에 Xming를 설치하고 wsl에서 x-windows 구성 요�
 ```
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 ```
-![wsl2_xming.png](/_posts/wsl2_xming.png)
+![wsl2_xming.png](https://github.com/bbongcol/bbongcol.github.io/blob/master/_posts/wsl2_xming.png)
 
 
 
