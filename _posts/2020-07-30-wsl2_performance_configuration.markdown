@@ -9,6 +9,7 @@ tags: wsl2 linux
 cover: /assets/instacode.png
 ---
 ## WSL2 설치 관련
+
 ### WSL 최신 커널 설치
 [CUDA on WSL User Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)를 적용해 보기 위해 시도 하던중 WSL2 Kernel 4.19.121+ 조건이 있어서 적용을 해보려고 했으나 [WSL 2 Linux 커널 업데이트](https://docs.microsoft.com/ko-kr/windows/wsl/wsl2-kernel)에서 다운받을 수 있는 최신 WSL2 Linux 커널 업데이트 패키지는 4.19.104 버전임.
 
@@ -23,7 +24,15 @@ wsl --update를 통한 방법
 - 콘솔 창에서 'wsl --update'를 실행하면 wsl2 kernel 최신 버전을 자동으로 다운로드 받아 설치 됨
 - 참고 : [GPU Compute, WSL Install and WSL Update arrive in the latest Insider build for the Windows Subsystem for Linux](https://devblogs.microsoft.com/commandline/gpu-compute-wsl-install-and-wsl-update-arrive-in-the-windows-insiders-fast-ring-for-the-windows-subsystem-for-linux/)
 
+### WSL2 x-windows를 위한 설정
+WSL1에서는 윈도우에 Xming를 설치하고 wsl에서 x-windows 구성 요소를 설치 하고 export DISPLAY=:0를 셋팅하면 바로 사용가능하다. ([참고](https://www.tuwlab.com/ece/29485)). WSL2는 윈도우와 다른 IP주소를 갖는 VM이기 때문에 export DISPLAY에 IP주소를 추가해 주어야 하고, Xming 실행시 공용 액세스를 허용하기 위해 -ac 옵션이 필요하다. 
+```
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+```
+
+
 ## WSL2 성능을 위한 몇가지 설정
+
 ### 더 빠른 성능을 위해 Linux 파일 시스템 사용
 그동안 wsl을 통해 cross compile 환경을 구축해 개발을 해오고 있었는데, wsl2에서 file i/o의 성능이 훨신 좋아졌다는 소식을 듣고 wsl2에 개발 환경을 셋팅 후 빌드 해보았는데 오히려 더 느려짐.
 
