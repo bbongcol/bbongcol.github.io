@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: WSL2 관련 정리
-date: {}
+date: 2020-09-02 11:17:00 -0400
 author: Bongjun Lee
 categories: wsl
 tags: wsl2 linux
